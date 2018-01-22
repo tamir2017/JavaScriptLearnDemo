@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>chapter 4</title>
+        <script type="text/javascript">
+            function addTen(num){
+                num +=10;
+                return num;
+            }
+
+            var count = 20;
+            var result = addTen(count);
+            alert("count is " + count);
+            alert("result is "+ result);
+
+            function setName(obj){
+                obj.name = "tamir";
+                obj = new Object();
+                obj.name = "another name";
+            }
+
+            var person = new Object();
+            setName(person);
+            alert("person's name is " + person.name);
+
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
